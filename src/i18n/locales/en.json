@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "events": "Events",
+    "support": "Support Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Creating space for the growth of soul, heart and nature",
+    "subtitle": "Nech Mě Růst (Let Me Grow) is a non-profit organization with a vision of creating a family homestead where we live in harmony with nature, animals and each other.",
+    "cta": "Join Us",
+    "learn_more": "Learn More"
+  },
+  "about": {
+    "title": "About Our Project",
+    "vision_title": "Our Vision",
+    "vision_text": "We create a space where traditional wisdom meets modern understanding. A place where every person can grow at their own pace and find their path to harmony with nature.",
+    "mission_title": "Our Mission",
+    "mission_text": "We are building a sustainable community based on mutual respect, knowledge sharing and care for nature. We believe that change starts within ourselves and gradually spreads to the whole world.",
+    "values_title": "Our Values",
+    "values": [
+      "Respect for nature and all living beings",
+      "Sustainability and responsibility to future generations",
+      "Authenticity and truthfulness in action",
+      "Sharing knowledge and mutual support"
+    ]
+  },
+  "events": {
+    "title": "Our Events",
+    "subtitle": "Join our workshops, retreats and community gatherings",
+    "register": "Register",
+    "full": "Full",
+    "available_spots": "Available spots: {{count}}",
+    "register_form": {
+      "title": "Event Registration",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message (optional)",
+      "submit": "Submit Registration",
+      "success": "Registration was successfully submitted!",
+      "error": "An error occurred while submitting registration."
+    }
+  },
+  "support": {
+    "title": "How to Support Us",
+    "subtitle": "Your support helps us realize our vision",
+    "donate_title": "Financial Support",
+    "donate_text": "Every contribution helps us build a sustainable community and care for our nature.",
+    "volunteer_title": "Volunteering",
+    "volunteer_text": "Do you have time and desire to help? Come help us with farm work, workshops or event organization.",
+    "share_title": "Sharing",
+    "share_text": "Help us spread our mission by sharing our activities with your friends and family.",
+    "bank_account": "Bank Account",
+    "copy_account": "Copy Account Number"
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message was successfully sent!",
+      "error": "An error occurred while sending the message."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Nech Mě Růst. All rights reserved.",
+    "made_with_love": "Made with love for nature"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back"
+  }
+}

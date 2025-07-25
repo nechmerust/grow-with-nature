@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Domů",
+    "about": "O nás",
+    "events": "Události",
+    "support": "Podpořte nás",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Tvoříme prostor pro růst duše, srdce i přírody",
+    "subtitle": "Nech Mě Růst z.s. je nezisková organizace s vizí tvorby rodového statku, kde žijeme v harmonii s přírodou, zvířaty i sebou navzájem.",
+    "cta": "Připojte se k nám",
+    "learn_more": "Zjistit více"
+  },
+  "about": {
+    "title": "O našem projektu",
+    "vision_title": "Naše vize",
+    "vision_text": "Vytváříme prostor, kde se setkává tradiční moudrost s moderním porozuměním. Místo, kde každý člověk může růst ve svém vlastním tempu a najít svou cestu k harmonii s přírodou.",
+    "mission_title": "Naše mise",
+    "mission_text": "Budujeme udržitelné společenství založené na vzájemné úctě, sdílení znalostí a péči o přírodu. Věříme, že změna začíná v nás samých a postupně se šíří do celého světa.",
+    "values_title": "Naše hodnoty",
+    "values": [
+      "Respekt k přírodě a všem živým bytostem",
+      "Udržitelnost a odpovědnost k budoucím generacím",
+      "Autenticita a pravdivost v jednání",
+      "Sdílení znalostí a vzájemná podpora"
+    ]
+  },
+  "events": {
+    "title": "Naše události",
+    "subtitle": "Přidejte se k našim workshopům, pobytům a komunitním setkáním",
+    "register": "Registrovat",
+    "full": "Obsazeno",
+    "available_spots": "Volných míst: {{count}}",
+    "register_form": {
+      "title": "Registrace na událost",
+      "name": "Jméno a příjmení",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "message": "Zpráva (volitelné)",
+      "submit": "Odeslat registraci",
+      "success": "Registrace byla úspěšně odeslána!",
+      "error": "Nastala chyba při odesílání registrace."
+    }
+  },
+  "support": {
+    "title": "Jak nás podpořit",
+    "subtitle": "Vaše podpora nám pomáhá realizovat naši vizi",
+    "donate_title": "Finanční podpora",
+    "donate_text": "Každý příspěvek nám pomáhá budovat udržitelné společenství a pečovat o naši přírodu.",
+    "volunteer_title": "Dobrovolnictví",
+    "volunteer_text": "Máte čas a chuť pomoci? Přijďte nám pomoci s prací na statku, workshopy nebo organizací akcí.",
+    "share_title": "Sdílení",
+    "share_text": "Pomozte nám šířit naše poslání sdílením našich aktivit se svými přáteli a rodinou.",
+    "bank_account": "Bankovní účet",
+    "copy_account": "Kopírovat číslo účtu"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "address": "Adresa",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "form": {
+      "name": "Jméno",
+      "email": "E-mail",
+      "subject": "Předmět",
+      "message": "Zpráva",
+      "submit": "Odeslat zprávu",
+      "success": "Zpráva byla úspěšně odeslána!",
+      "error": "Nastala chyba při odesílání zprávy."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Nech Mě Růst z.s. Všechna práva vyhrazena.",
+    "made_with_love": "Vytvořeno s láskou k přírodě"
+  },
+  "common": {
+    "loading": "Načítání...",
+    "error": "Nastala chyba",
+    "success": "Úspěch",
+    "close": "Zavřít",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "continue": "Pokračovat",
+    "back": "Zpět"
+  }
+}
