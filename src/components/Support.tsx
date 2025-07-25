@@ -41,7 +41,7 @@ export function Support() {
         </div>
 
         {/* Support Options Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* Financial Support */}
           <Card className="group hover:shadow-nature transition-all duration-300 hover:-translate-y-2">
             <CardHeader className="text-center">
@@ -76,7 +76,7 @@ export function Support() {
 
               <Button variant="nature" className="w-full">
                 <Heart className="h-4 w-4 mr-2" />
-                Darovat
+                {t('support.donate_button')}
               </Button>
             </CardContent>
           </Card>
@@ -95,14 +95,14 @@ export function Support() {
               </p>
 
               <div className="space-y-2">
-                <Badge variant="secondary" className="mr-2">Práce na statku</Badge>
-                <Badge variant="secondary" className="mr-2">Workshopy</Badge>
-                <Badge variant="secondary">Organizace akcí</Badge>
+                <Badge variant="secondary" className="mr-2">{t('support.volunteer_farm')}</Badge>
+                <Badge variant="secondary" className="mr-2">{t('support.volunteer_workshops')}</Badge>
+                <Badge variant="secondary">{t('support.volunteer_events')}</Badge>
               </div>
 
               <Button variant="outline" className="w-full">
                 <HandHeart className="h-4 w-4 mr-2" />
-                Chci pomoci
+                {t('support.volunteer_button')}
               </Button>
             </CardContent>
           </Card>
@@ -123,12 +123,12 @@ export function Support() {
               <div className="space-y-2">
                 <Badge variant="secondary" className="mr-2">Facebook</Badge>
                 <Badge variant="secondary" className="mr-2">Instagram</Badge>
-                <Badge variant="secondary">Word of mouth</Badge>
+                <Badge variant="secondary">{t('support.share_word_of_mouth')}</Badge>
               </div>
 
               <Button variant="outline" className="w-full">
                 <Share2 className="h-4 w-4 mr-2" />
-                Sdílet
+                {t('support.share_button')}
               </Button>
             </CardContent>
           </Card>
@@ -136,16 +136,16 @@ export function Support() {
 
         {/* Call to Action */}
         <div className="text-center">
-          <Card className="bg-gradient-forest text-primary-foreground max-w-2xl mx-auto">
+            <Card className="bg-gradient-forest text-primary-foreground max-w-2xl mx-auto">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4">
-                Společně vytváříme lepší svět
+                {t('support.cta_title')}
               </h3>
               <p className="text-primary-foreground/90 mb-6">
-                Každý příspěvek, ať už finanční, časový nebo v podobě sdílení našeho poslání, nám pomáhá růst a rozvíjet naši vizi.
+                {t('support.cta_text')}
               </p>
               <Button size="lg" variant="sunrise">
-                Kontaktujte nás
+                {t('support.cta_button')}
               </Button>
             </CardContent>
           </Card>

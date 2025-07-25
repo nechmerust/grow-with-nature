@@ -20,28 +20,25 @@ export function Navigation() {
   }, []);
 
   const navItems = [
-    { key: 'home', href: '#home' },
-    { key: 'about', href: '#about' },
-    { key: 'events', href: '#events' },
-    { key: 'support', href: '#support' },
-    { key: 'contact', href: '#contact' },
+    { key: 'home', href: '/' },
+    { key: 'about', href: '/about' },
+    { key: 'events', href: '/events' },
+    { key: 'support', href: '/support' },
+    { key: 'contact', href: '/contact' },
   ];
 
-  const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsOpen(false);
-    }
+  const navigateToPage = (href: string) => {
+    window.location.href = href;
+    setIsOpen(false);
   };
 
   return (
     <nav
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-border/20",
         isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-nature"
-          : "bg-transparent"
+          ? "bg-background/98 backdrop-blur-md shadow-nature"
+          : "bg-background/90 backdrop-blur-sm"
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -57,7 +54,7 @@ export function Navigation() {
             {navItems.map((item) => (
               <button
                 key={item.key}
-                onClick={() => scrollToSection(item.href)}
+                onClick={() => navigateToPage(item.href)}
                 className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
               >
                 {t(`nav.${item.key}`)}
@@ -86,7 +83,7 @@ export function Navigation() {
               {navItems.map((item) => (
                 <button
                   key={item.key}
-                  onClick={() => scrollToSection(item.href)}
+                  onClick={() => navigateToPage(item.href)}
                   className="block w-full text-left px-3 py-2 text-foreground hover:text-primary hover:bg-muted rounded-md transition-colors duration-200"
                 >
                   {t(`nav.${item.key}`)}

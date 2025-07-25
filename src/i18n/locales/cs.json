@@ -48,12 +48,22 @@
     "subtitle": "Vaše podpora nám pomáhá realizovat naši vizi",
     "donate_title": "Finanční podpora",
     "donate_text": "Každý příspěvek nám pomáhá budovat udržitelné společenství a pečovat o naši přírodu.",
+    "donate_button": "Darovat",
     "volunteer_title": "Dobrovolnictví",
     "volunteer_text": "Máte čas a chuť pomoci? Přijďte nám pomoci s prací na statku, workshopy nebo organizací akcí.",
+    "volunteer_farm": "Práce na statku",
+    "volunteer_workshops": "Workshopy",
+    "volunteer_events": "Organizace akcí",
+    "volunteer_button": "Chci pomoci",
     "share_title": "Sdílení",
     "share_text": "Pomozte nám šířit naše poslání sdílením našich aktivit se svými přáteli a rodinou.",
+    "share_word_of_mouth": "Ústní předávání",
+    "share_button": "Sdílet",
     "bank_account": "Bankovní účet",
-    "copy_account": "Kopírovat číslo účtu"
+    "copy_account": "Kopírovat číslo účtu",
+    "cta_title": "Společně vytváříme lepší svět",
+    "cta_text": "Každý příspěvek, ať už finanční, časový nebo v podobě sdílení našeho poslání, nám pomáhá růst a rozvíjet naši vizi.",
+    "cta_button": "Kontaktujte nás"
   },
   "contact": {
     "title": "Kontakt",

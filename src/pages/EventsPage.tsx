@@ -1,15 +1,15 @@
 import { Navigation } from '@/components/Navigation';
-import { Hero } from '@/components/Hero';
+import { Events } from '@/components/Events';
 import { Footer } from '@/components/Footer';
 
-const Index = () => {
+const EventsPage = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <Hero />
+      <Events />
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default EventsPage;

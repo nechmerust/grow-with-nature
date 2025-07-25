@@ -48,12 +48,22 @@
     "subtitle": "Your support helps us realize our vision",
     "donate_title": "Financial Support",
     "donate_text": "Every contribution helps us build a sustainable community and care for our nature.",
+    "donate_button": "Donate",
     "volunteer_title": "Volunteering",
     "volunteer_text": "Do you have time and desire to help? Come help us with farm work, workshops or event organization.",
+    "volunteer_farm": "Farm work",
+    "volunteer_workshops": "Workshops",
+    "volunteer_events": "Event organization",
+    "volunteer_button": "I want to help",
     "share_title": "Sharing",
     "share_text": "Help us spread our mission by sharing our activities with your friends and family.",
+    "share_word_of_mouth": "Word of mouth",
+    "share_button": "Share",
     "bank_account": "Bank Account",
-    "copy_account": "Copy Account Number"
+    "copy_account": "Account number copied to clipboard",
+    "cta_title": "Together we create a better world",
+    "cta_text": "Every contribution, whether financial, time or sharing our mission, helps us grow and develop our vision.",
+    "cta_button": "Contact us"
   },
   "contact": {
     "title": "Contact",

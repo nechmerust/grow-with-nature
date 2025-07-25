@@ -1,15 +1,15 @@
 import { Navigation } from '@/components/Navigation';
-import { Hero } from '@/components/Hero';
+import { Support } from '@/components/Support';
 import { Footer } from '@/components/Footer';
 
-const Index = () => {
+const SupportPage = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <Hero />
+      <Support />
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default SupportPage;
