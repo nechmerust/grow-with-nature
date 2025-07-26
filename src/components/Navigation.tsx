@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { Menu, X, Sprout } from 'lucide-react';
@@ -7,6 +8,7 @@ import { cn } from '@/lib/utils';
 
 export function Navigation() {
   const { t } = useTranslation();
+  const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -27,8 +29,7 @@ export function Navigation() {
     { key: 'contact', href: '/contact' },
   ];
 
-  const navigateToPage = (href: string) => {
-    window.location.href = href;
+  const handleMobileMenuClose = () => {
     setIsOpen(false);
   };
 
@@ -44,21 +45,24 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2">
             <Sprout className="h-8 w-8 text-primary" />
             <span className="font-bold text-xl text-primary">Nech Mě Růst</span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <button
+              <Link
                 key={item.key}
-                onClick={() => navigateToPage(item.href)}
-                className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+                to={item.href}
+                className={cn(
+                  "text-foreground hover:text-primary transition-colors duration-200 font-medium",
+                  location.pathname === item.href && "text-primary"
+                )}
               >
                 {t(`nav.${item.key}`)}
-              </button>
+              </Link>
             ))}
             <LanguageSwitcher />
           </div>
@@ -81,13 +85,17 @@ export function Navigation() {
           <div className="md:hidden bg-background/95 backdrop-blur-md border-t border-border">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
-                <button
+                <Link
                   key={item.key}
-                  onClick={() => navigateToPage(item.href)}
-                  className="block w-full text-left px-3 py-2 text-foreground hover:text-primary hover:bg-muted rounded-md transition-colors duration-200"
+                  to={item.href}
+                  onClick={handleMobileMenuClose}
+                  className={cn(
+                    "block px-3 py-2 text-foreground hover:text-primary hover:bg-muted rounded-md transition-colors duration-200",
+                    location.pathname === item.href && "text-primary bg-muted"
+                  )}
                 >
                   {t(`nav.${item.key}`)}
-                </button>
+                </Link>
               ))}
             </div>
           </div>
